@@ -1,4 +1,4 @@
-# Module 1 – Object Dimension Measurement from a Single Image
+# Module 1 
 
 ## 1. Overview
 
