@@ -52,6 +52,14 @@ You should also have a `static/` folder containing the Rubik’s cube image that
 
 ---
 
+## 5. Run the application and the results
+- Go tho the `app.py` and run the application. 
+- Once you run, in the terminal you can see the link to the web application. 
+- Click the link (Ctrl+left-click)
+- Click on two points.
+- You can see the results in below right side in the web application. 
+
+
 ## 4. Dependencies and Setup
 
 ### 4.1. Create and activate a virtual environment (recommended)
@@ -60,5 +68,6 @@ You should also have a `static/` folder containing the Rubik’s cube image that
 # From the Module1 directory
 python3 -m venv venv
 source venv/bin/activate      # On macOS / Linux
-# venv\Scripts\activate       # On Windows
-                    
+# venv\Scripts\activate       # On Windows                    
+
+
