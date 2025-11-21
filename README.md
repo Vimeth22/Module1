@@ -41,6 +41,10 @@ The main files for Module 1 are:
   - Stand-alone script that demonstrates the same math using hard-coded pixel coordinates.  
   - Shows how the intrinsic camera matrix is **scaled from the original calibration resolution (1280×720) to the current image resolution (2220×1480)** and how ΔX, ΔY, and the diagonal distance are computed.
 
+- `Static`
+  - Upload the image in here. 
+  - I have my outputs in `Output Screenshots`
+
 - `templates/index.html`  
   - Front-end page that loads the Rubik’s cube image, captures mouse clicks, draws the red dots, and calls `/calculate` via AJAX/`fetch`.
 
@@ -52,15 +56,7 @@ You should also have a `static/` folder containing the Rubik’s cube image that
 
 ---
 
-## 5. Run the application and the results
-- Go tho the `app.py` and run the application. 
-- Once you run, in the terminal you can see the link to the web application. 
-- Click the link (Ctrl+left-click)
-- Click on two points.
-- You can see the results in below right side in the web application. 
-
-
-## 4. Dependencies and Setup
+## 4. Dependencies and Setup 
 
 ### 4.1. Create and activate a virtual environment (recommended)
 
@@ -69,5 +65,13 @@ You should also have a `static/` folder containing the Rubik’s cube image that
 python3 -m venv venv
 source venv/bin/activate      # On macOS / Linux
 # venv\Scripts\activate       # On Windows                    
+```
 
+
+## 5. Run the application and the results
+- Go tho the `app.py` and run the application. 
+- Once you run, in the terminal you can see the link to the web application. 
+- Click the link (Ctrl+left-click)
+- Click on two points.
+- You can see the results in below right side in the web application. 
 
