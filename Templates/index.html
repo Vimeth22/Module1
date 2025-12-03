@@ -61,11 +61,21 @@
 <body>
   <h1>Click Two Points on the Object to Measure</h1>
 
+  <div style="margin-top: 30px; padding: 10px; border-top: 1px solid #0a0101ff;">
+    <p>
+      Module 1:
+      <a href="https://drive.google.com/file/d/1YdWeTcwam78nvAxUfLy80i4mbacqNB5A/view?usp=sharing" target="_blank" style="color: #007bff; text-decoration: none; font-weight: bold;">
+        Click to Watch the Demo Video 
+      </a>
+    </p>
+  </div>
+
   <div id="container">
     <img id="image" src="{{ url_for('static', filename='Rubic.png') }}" alt="Target Object">
   </div>
 
   <div id="result">Waiting for clicks...</div>
+  
 
   <script>
     const image = document.getElementById("image");
