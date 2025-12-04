@@ -1,10 +1,14 @@
 #Module1: app
 
+import os
 from flask import Flask, render_template, request, jsonify
 import math
 
-# --- Setup: Initialize the Flask application ---
-app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+
+app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 
 # Focal lengths (in pixels)
 FOCAL_X = 1667.53      # fx: Focal length along the X-axis
